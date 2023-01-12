@@ -13,9 +13,17 @@ root.render(
     <div className="WeatherApp">
       <h1> Weather App </h1>
       <Weather />
-      <a href="https://github.com/pao050988/weather-react-app">Open-source code</a>
+      <div className="link">
+        <a href="https://github.com/pao050988/weather-react-app">
+          Open-source code
+        </a>
+      </div>
+      <div className="link">
+        {" "}
+        <a href="https://chimerical-puffpuff-8dd46d.netlify.app/">
+          Hosted on Netlify{" "}
+        </a>
+      </div>
     </div>
   </StrictMode>
 );
-
-
